@@ -91,4 +91,3 @@ def make_optimal_guess(guesses):
             max_guess = guess
 
     return max_guess
-

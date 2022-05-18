@@ -61,11 +61,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-# POTENTIAL ISSUES / BUGS:
-#   -
-
-# TO-DO:
-#   1) write testing algorithm for optimizing adjusting proportional value for repeating letters grouping
-#   2) incorporate functionality with wordle website

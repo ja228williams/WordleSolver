@@ -67,6 +67,3 @@ def play_game(answer, first_word="tares", make_optimal_choice=True):
     print("Final list of guesses: " + str(guesses))
 
     return guesses
-
-
-play_game("meaty")
