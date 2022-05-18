@@ -16,8 +16,9 @@ find_possible_words.py finds all possible solutions given the "black", "yellow" 
 
 
 # play_game Simulation
-make_guess.py plays a single turn in the game given the correct answer and the guess to be made by calculating which letters are designated as black, yellow and green, and prints out the results from the guess; i.e., the word and its corresponding black-yellow-green letter designation. 
-// add instructions of how to use
+make_guesses.py plays a single turn in the game given the correct answer and the guess to be made by calculating which letters are designated as black, yellow and green, and prints out the results from the guess; i.e., the word and its corresponding black-yellow-green letter designation. This file also contains a function that is called to print out the inputted guess with its black-yellow-green letter designation. 
+
+play_game.py simulates the program's attempt to guess the word in the smallest number of turns. It takes in the solution to the puzzle, as well as the first guess to be made (with default first word "tares", found by the previously described optimization algorithm to be the optimal first guess) and a boolean representing the choice to make the optimal guess or a random guess from the set of possible remaining words, with default value of picking the optimal guess. Calling play_game prints out the results from each guess until the final word is found, at which point the list of guesses made in order is printed and returned. 
 
 
 # Word list
